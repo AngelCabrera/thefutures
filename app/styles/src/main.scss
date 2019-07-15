@@ -1,0 +1,103 @@
+//Variables
+$background-primary: #3c4858;
+$soft-color: #8492a6;
+
+.soft-color {
+  color: $soft-color !important;
+}
+
+.soft-color:hover {
+  color: white !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  color: $background-primary;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  font-weight: 700 !important;
+}
+
+nav {
+  background: $background-primary;
+}
+
+.bg-img {
+  background: url("https://www.abacus.com/img/header.svg") no-repeat center;
+  height: 100%;
+}
+
+.lead {
+  margin: 20px 0 30px 0;
+}
+
+#header {
+  padding: 10px 16px;
+  background: $background-primary;
+  color: white;
+  font-size: 16px;
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .page-content {
+    min-height: 200vh;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .sticky+content {
+    padding-top: 102px;
+  }
+}
+
+.first-content {
+  height: 100%;
+}
+
+#hero {
+  margin-top: 80px;
+  height: 90vh;
+  background-color: $background-primary;
+}
+
+.button {
+  background: #0187d0;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background: #0298e9;
+  color: white;
+  border-radius: 3px;
+}
+
+.button-quaternary {
+  font-size: 20px;
+  padding: 12px;
+}

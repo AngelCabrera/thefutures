@@ -1,0 +1,110 @@
+body {
+  font-family: 'Rubik', sans-serif !important;
+  color: #4a4a4a !important;
+  font-size: 14px;
+}
+
+.navbar {
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: none !important;
+  padding: 16px 64px 8px !important;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #4a4a4a !important;
+}
+
+.nav-link:hover {
+  color: #232d40 !important;
+}
+
+.text-link {
+  color: #4a4a4a !important;
+}
+
+.text-link:hover {
+  color: #232d40 !important;
+}
+
+.main-content {
+  min-height: 90vh !important;
+}
+
+#sidebar {
+  background-color: #f6f9fa;
+  min-height: 100%;
+  padding-right: 0;
+}
+
+#sidebar nav {
+  margin: 3em 0 3em 2em;
+  padding: 0;
+}
+
+thead tr th {
+  font-weight: 700 !important;
+}
+
+.sidebar-link {
+  margin: .875rem;
+  margin-right: 1px;
+  font-size: .875rem;
+  padding: 0;
+}
+
+.active {
+  font-weight: 700 !important;
+  border-right: 1px solid black;
+}
+
+.main-content {
+  margin: 2em 0;
+}
+
+@media screen and (min-width: 800px) {
+  .main-content .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main-content .header button {
+  background-color: #4a90e2;
+  border-radius: .25rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+
+.btn {
+  font-size: .875rem;
+}
+
+.main-title {
+  font-weight: 700;
+  color: #232d40;
+  font-size: 2.25rem;
+}
+
+.main-content .data {
+  margin-top: 4em;
+}
+
+table.table a {
+  color: #007bff !important;
+}
+
+table.table a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-width: .25rem;
+  border-color: #e6e6e6;
+}
+
+#main-content {
+  margin: 0;
+}
